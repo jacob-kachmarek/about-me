@@ -10,6 +10,7 @@ body {
     background: var(--background);
     display: grid;
     grid-template-rows: auto 1fr;
+    background-color: beige;
 }
 
 header {
@@ -32,4 +33,12 @@ header .logo {
 
 main {
     padding: 20px;
+}
+
+div {
+    display: grid;
+    place-items: center;
+}
+.center {
+    text-align: center;
 }
